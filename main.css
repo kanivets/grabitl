@@ -1,0 +1,186 @@
+body {
+	background: url("bg.png") repeat scroll;
+	font-family: "Lucida Grande", Arial,Helvetica,Verdana,sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 18px;
+}
+
+acronym {
+	cursor: help
+}
+
+span.grabit-l {
+	background: url("robber_16.png") no-repeat;
+	padding-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+ol {
+	list-style-type: decimal;
+}
+ol li{
+	margin-left: 20px;
+}
+
+
+.left {
+	float : left;
+	width : 50%;
+}
+
+.right {
+	float : left;
+	width : 50%;
+}
+
+.clear {
+	clear: both;
+}
+
+p.desc {
+	color : #666;
+	margin-top: 10px;
+}
+
+.header {
+	width : 100%;
+	background-color: #EEE;
+	margin-top: -35px;
+	padding: 45px 0 10px;
+	
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	
+	
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	
+}
+
+.header .sitename {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.header .userlogin {
+	color: #666;
+	font-style: italic;
+	padding: 0 2px;
+}
+
+.sitename.black {
+	color: #000;
+}
+
+.sitename.grey {
+	color: #666;
+}
+
+.header .left  p {
+	margin-left: 20px;
+}
+
+.header .right p {
+	text-align: right;
+	margin: 10px 10px 0 0;
+}
+
+.header .motto {
+	font-size: 10px;
+	font-style: italic;
+	margin-left: 20px;
+}
+
+
+div.main-container {
+	background-color: white;
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	
+	padding: 20px;
+	margin: 20px auto;
+	
+	width : 800px;
+}
+
+div.signin-register {
+	width : 80%;
+	margin : 0 auto;
+	padding: 0 44px 0 15px;
+	text-align: center;
+}
+
+.signin-register form p {
+	text-align: center;
+	margin: 5px 0;
+	width: 100%;
+}
+
+.signin-register .desc {
+	font-size: 10px;
+	color: #AAA;
+	margin: 5px 0;
+}
+
+.right-bordered {
+	border-right : 1px solid #DDD;
+}
+
+.bottom-bordered {
+	padding-bottom: 2px;
+	border-bottom : 1px solid #DDD;
+}
+
+.articles-list ol {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.ext-link {
+	color : #666;
+}
+
+.ext-link:hover{
+	color : #222;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.time {
+	font-size: 10px;
+	color: #999;
+	font-style: italic;
+	padding: 0 10px;
+}
+
+.bookmarklet {
+	width: 64px;
+	height: 20px;
+	padding: 2px 0 2px 20px;
+	background: #111 url("robber_16.png") no-repeat;
+	
+     -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+	
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+}

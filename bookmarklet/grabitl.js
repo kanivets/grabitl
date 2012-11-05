@@ -24,4 +24,4 @@ javascript:function grabitl() {
 	document.body.appendChild(el);	 
 }; grabitl(); void(0);
 
-javascript:function%20grabitl(){if(!document.body){alert('not_loaded_yet');return;}var%20el=document.createElement('scr'+'ipt');el.setAttribute('src','http://grabitl/process.php?h=haarer0&p='+encodeURIComponent(document.location.href)+'&t='+(new%20Date().getTime()));document.body.appendChild(el);};grabitl();void(0);
+javascript:function%20grabitl(){if(!document.body){alert('not_loaded_yet');return;}var%20el=document.createElement('scr'+'ipt');el.setAttribute('src','http://grabitl.akqa.pp.ua/process.php?u=aaa@bbb.ccc&p='+encodeURIComponent(document.location.href)+'&t='+encodeURIComponent(document.title));document.body.appendChild(el);};grabitl();void(0);
